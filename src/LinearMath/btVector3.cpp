@@ -26,6 +26,12 @@
 #ifdef __APPLE__
 #include <stdint.h>
 typedef  float float4 __attribute__ ((vector_size(16)));
+
+#ifdef DEBUG
+// Needed for memset()
+#include <cstring>
+#endif
+
 #else
 #define float4 __m128
 #endif
