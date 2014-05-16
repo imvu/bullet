@@ -35,7 +35,7 @@ inline int	btGetVersion()
 	return BT_BULLET_VERSION;
 }
 
-#if !defined(NDEBUG)
+#if !defined(_DEBUG)
 #define BT_DEBUG
 #endif
 
