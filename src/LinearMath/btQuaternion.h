@@ -850,7 +850,7 @@ shortestArcQuat(const btVector3& v0, const btVector3& v1) // Game Programming Ge
 	btVector3 c = v0.cross(v1);
 	btScalar  d = v0.dot(v1);
 
-	if (d < -1.0 + SIMD_EPSILON)
+	if (d < -1.0f + SIMD_EPSILON)
 	{
 		btVector3 n,unused;
 		btPlaneSpace1(v0,n,unused);
