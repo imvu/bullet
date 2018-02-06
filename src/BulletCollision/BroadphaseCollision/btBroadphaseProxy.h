@@ -212,7 +212,7 @@ BT_DECLARE_ALIGNED_ALLOCATOR();
             m_pProxy0 = &proxy0; 
             m_pProxy1 = &proxy1; 
         }
-        else 
+		else
         { 
 			m_pProxy0 = &proxy1; 
             m_pProxy1 = &proxy0; 

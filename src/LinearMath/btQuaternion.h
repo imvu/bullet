@@ -514,7 +514,7 @@ public:
           (m_floats[2] * s0 + q.z() * s1) * d,
           (m_floats[3] * s0 + q.m_floats[3] * s1) * d);
 		}
-		else
+    else
 		{
 			return *this;
 		}
